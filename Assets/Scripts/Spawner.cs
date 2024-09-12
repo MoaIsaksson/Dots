@@ -8,4 +8,6 @@ public struct Spawner : IComponentData
     public float NextSpawnTime;
     public float SpawnRate;
     public int EnemyCount;
+    public float Timer;
+    public float NextTimer;
 }
